@@ -1,0 +1,28 @@
+{
+    "name": "martinbean/laravel-facebook-data-handler",
+    "description": "Persistent data handler for Facebook Graph SDK that uses Laravel sessions.",
+    "version": "0.1.0",
+    "type": "library",
+    "keywords": ["laravel", "facebook", "session"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Bean",
+            "email": "martin@martinbean.co.uk",
+            "homepage": "http://martinbean.co.uk"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/martinbean/laravel-facebook-data-handler/issues",
+        "source": "https://github.com/martinbean/laravel-facebook-data-handler"
+    },
+    "require": {
+        "facebook/graph-sdk": "~5.0",
+        "laravel/framework": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MartinBean\\Facebook\\": "src/"
+        }
+    }
+}
